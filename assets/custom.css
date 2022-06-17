@@ -1,0 +1,174 @@
+.me-1{
+
+font-size: calc(0.27em + 1vw);
+width:calc(6.5rem + 1vw);
+box-shadow: none !important;
+
+border-radius: 10%;
+
+}
+
+.me-2{
+
+font-size: calc(0.2em + 1vw);
+width:calc(5.5em + 1vw);
+  border-radius: 10%;
+
+}
+
+
+body {
+  /*overflow: hidden; /* Hide scrollbars */
+  background-color:transparent;
+  overflow-x: hidden;
+}
+
+.main{
+
+
+height:100% ;
+min-height:100vh;
+width:100% ;
+min-width:100vw;
+}
+
+
+
+
+
+.info-header{
+/*font-size: clamp(0.9rem, 0.8vw, 7rem);*/
+font-size: calc(0.45rem + 0.4vw);
+}
+
+.date-chart-header{
+font-size: clamp(0.9rem, 1vw, 7rem);
+
+}
+
+.word-cloud-header{
+font-size: clamp(0.9rem, 0.9vw, 7rem);
+
+}
+
+.info-card{
+height:calc(7rem + 1vh);
+width:calc(9rem + 1vw);
+}
+
+.charts-card{
+height:calc(22rem + 1vh);
+
+}
+
+.bar-fig{
+height:calc(19rem + 1vh);
+
+}
+
+
+.date-fig{
+height:calc(15.5rem + 1vh);
+
+
+}
+
+.hor-bar-fig{
+height:calc(17.5rem + 1vh);
+}
+
+.ver-bar-fig{
+height:calc(17rem + 1vh);
+}
+
+.map-fig{
+height:calc(18rem + 1vh);
+}
+
+.donut-fig{
+height:calc(18rem + 1vh);
+}
+
+.map-card{
+height:calc(22rem + 1vh);
+
+}
+
+.mylogo{
+height:calc(3rem + 1vh);
+width:calc(3.5rem + 1vw);
+}
+
+
+.word-cloud{
+height:calc(15.5em + 1vh);
+width:100%
+}
+
+.main-header{
+font-size: calc(0.8rem + 1vw);
+
+}
+
+.sub-text{
+/*font-size: calc(0.35rem + 1vw);*/
+font-size: clamp(1rem, 1.2vw, 4.5rem);
+
+}
+
+
+.table-text{
+/*font-size: calc(0.35rem + 1vw);*/
+font-size: clamp(1rem, 1.2vw, 4.5rem);
+
+}
+
+
+
+
+.bar-fig-header{
+font-size: calc(0.2rem + 1vw);
+
+}
+
+.filter-label{
+font-size : clamp(0.6rem, 1vw, 2rem);
+vertical-align: middle !important;
+
+
+
+}
+
+.filter-button{
+box-shadow: none !important;
+outline:none !important;
+vertical-align: middle !important;
+display: table-cell;
+}
+
+.out-of-poverty{
+/*margin:auto*/
+}
+
+
+.num{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.Select-value-label {
+    color: white !important;
+
+}
+
+.VirtualizedSelectOption {
+    background-color: #1dabdd;
+    color: white;
+    font-size:1.4vh;
+ }
+ 
+
+
